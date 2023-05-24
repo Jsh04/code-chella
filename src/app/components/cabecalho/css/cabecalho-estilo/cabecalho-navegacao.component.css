@@ -1,0 +1,13 @@
+
+.cabecalho__navegacao .cabecalho__navegacao-lista{
+  list-style: none;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.cabecalho__navegacao-item{
+  font-size: 1.50rem;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 1.5rem;
+}

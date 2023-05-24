@@ -1,5 +1,11 @@
 .cabecalho{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem;
   background-color: var(--azul-escuro-primary);
+}
+.cabecalho img{
+  color: #ffffff;
+  height: auto;
 }

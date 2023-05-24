@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-cabecalho',
   templateUrl: './cabecalho.component.html',
-  styleUrls: ['./css/cabecalho.component.css']
+  styleUrls: ['./css/cabecalho.component.css', './css/cabecalho-estilo/cabecalho-navegacao.component.css']
 })
 export class CabecalhoComponent implements OnInit {
 
