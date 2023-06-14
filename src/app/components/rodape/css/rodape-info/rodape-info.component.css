@@ -1,0 +1,9 @@
+.rodape__info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rodape__info-redes-item{
+  font-size: 1.25 rem;
+}

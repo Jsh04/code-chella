@@ -1,0 +1,8 @@
+.rodape{
+  padding: 0 3rem;
+  background-color: var(--amarelo);
+}
+
+.rodape__info-redes-lista{
+  list-style: none;
+}

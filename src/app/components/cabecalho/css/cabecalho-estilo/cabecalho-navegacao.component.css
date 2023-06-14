@@ -11,3 +11,7 @@
   display: inline-block;
   margin-right: 1.5rem;
 }
+
+.cabecalho__navegacao-item:hover{
+  text-decoration: underline;
+}
