@@ -8,6 +8,9 @@ import { RodapeComponent } from './components/rodape/rodape.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { IngressoComponent } from './components/ingresso/ingresso.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,10 +20,13 @@ import { IngressoComponent } from './components/ingresso/ingresso.component';
     ExperienciaComponent,
     PrincipalComponent,
     IngressoComponent,
+    BannerComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

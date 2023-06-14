@@ -1,3 +1,17 @@
-<section class="{}">
-  <h2 class="banner__titulo">Boas-vindas ao <br>#CodeChella2023!</h2>
+<app-banner bannerTitulo="Garanta seu Ingresso" bannerImg="'../../../assets/imgs/Tema Verão/Desktop/Imagens/5 - Banner - garanta seu ingresso.png'"></app-banner>
+<section class="formulario">
+  <h2 class="formulario__subtitulo">Preencha o formulário a seguir: </h2>
+  <form #f="ngForm" (ngSubmit)="pegarDadosFormulario(f)">
+    <label for="nome">Nome Completo:</label>
+    <input type="text" name="nome" id="nome" ngModel>
+    <label for="email">Email:</label>
+    <input type="email" name="nome" id="nome" ngModel required>
+    <div class="campos__tipo__data">
+      <label for="tipo">Tipo de ingresso: </label>
+      <select name="tipo" id="tipo" ngModel></select>
+      <label for="data">Data de nascimento:</label>
+      <input type="date" name="data_nascimento" id="data" ngModel required>
+    </div>
+  </form>
+  <button type="submit">Avançar</button>
 </section>

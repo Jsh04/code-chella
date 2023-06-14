@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
 
 @Component({
   selector: 'app-ingresso',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IngressoComponent implements OnInit {
 
+  tiposSetores: string[] = [
+    ''
+  ]
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  pegarDadosFormulario(form: NgForm){
+    console.log(form.controls)
+  }
 }

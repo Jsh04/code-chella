@@ -12,12 +12,9 @@ import {  Router } from '@angular/router';
 ]
 })
 export class PrincipalComponent implements OnInit {
+  urlImagem: string = "../../../assets/imgs/Tema Verão/Desktop/Imagens/1 - Imagem homepage2.png";
 
   constructor(private route: Router) { }
-
-
- urlImagem: string = "../../../assets/imgs/Tema Verão/Desktop/Imagens/1 - Imagem homepage2.png";
-
 
   ngOnInit(): void {
     console.log(this.route.url);

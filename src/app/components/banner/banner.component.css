@@ -1,0 +1,13 @@
+.banner{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 407px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner__titulo{
+  font-size: 4rem;
+  font-weight:bold;
+}
