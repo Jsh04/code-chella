@@ -4,6 +4,21 @@
   justify-content: space-between;
 }
 
+.rodape__info-redes-texto{
+  font-size: 1.5rem;
+}
+
+.rodape__info-redes-container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
 .rodape__info-redes-item{
   font-size: 1.25 rem;
+  display: inline-block;
+}
+
+.rodape__info-direitos{
+  font-size: 1.5rem;
 }

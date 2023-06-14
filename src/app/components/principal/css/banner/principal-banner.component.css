@@ -2,7 +2,7 @@
   background-image: url("../../../../../assets/imgs/Tema Verão/Desktop/Imagens/Homepage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 407px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,4 +10,15 @@
 
 .banner__titulo{
   font-size: 4rem;
+}
+
+.banner__footer{
+  background-image: url("../../../../../assets/imgs/Tema Verão/Desktop/Imagens/1 - Imagem homepage2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 338px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
 }

@@ -16,7 +16,7 @@ import { IngressoComponent } from './components/ingresso/ingresso.component';
     RodapeComponent,
     ExperienciaComponent,
     PrincipalComponent,
-    IngressoComponent
+    IngressoComponent,
   ],
   imports: [
     BrowserModule,
