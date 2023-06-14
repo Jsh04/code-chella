@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+.artistas__cabecalho{
+  margin-top: 2rem
+}
+
+.artistas__cabecalho-titulo{
+  font-size: 4rem;
+  color: black;
+  font-family: 'Calistoga';
+}
+.artistas__data{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.artistas__data-linha1{
+  margin-right: 4rem;
+  border: 1px solid var(--mostarda);
+  width: 30%;
+}
+.artistas__data-linha2{
+  margin-left: 4rem;
+  border: 1px solid var(--mostarda);
+  width: 30%;
+}
+
+.artistas__data-subtitulo{
+  background-color: var(--mostarda);
+  font-family: 'Calistoga';
+  padding: 1.5rem;
+  font-size: 3rem;
+  color: white;
+}

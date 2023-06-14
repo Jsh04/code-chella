@@ -6,10 +6,14 @@
 }
 
 .cabecalho__navegacao-item{
-  font-size: 1.50rem;
+  font-size: 1.25rem;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-right: 1.5rem;
+}
+.cabecalho__navegacao-item a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .cabecalho__navegacao-item:hover{

@@ -3,5 +3,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.banner__titulo{
+  font-size: 4rem;
 }
